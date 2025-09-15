@@ -1,0 +1,21 @@
+{
+  "name": "0915-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hym-dot/0915-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hym-dot/0915-crud/issues"
+  },
+  "homepage": "https://github.com/hym-dot/0915-crud#readme"
+}
