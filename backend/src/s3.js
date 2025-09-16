@@ -18,7 +18,7 @@ export const presignPut=(Key,ContentType)=>
     getSignedUrl(
         s3,
         new PutObjectCommand({Bucket,Key,ContentType}),
-        {expiresIn:300}
+        {expiresIn:3600}
     )
 
 
