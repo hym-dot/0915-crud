@@ -1,0 +1,25 @@
+.file-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin: 1.8rem;
+
+    >li {
+        flex: 1 1 260px;
+        border: .1rem solid var(--border);
+        padding: 1.2rem;
+        color: var(--text);
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        box-shadow: 0 6px 16px rgba(17, 24, 39, .06);
+        transition: transform .12s ease, box-shadow .12s ease;
+        cursor: pointer;
+
+        .img-wrap {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
